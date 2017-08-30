@@ -6,7 +6,7 @@ new WebpackDevServer(webpack(config), {
 	publicPath: config.output.publicPath,
 	historyApiFallback: true // Needed to work with react-router browserHistory.
 })
-.listen(3000, 'localhost', function (err, result) {
+.listen(process.env.PORT || 3000, 'localhost', function (err, result) {
 	if(err) {
 		console.log(err);
 	}
