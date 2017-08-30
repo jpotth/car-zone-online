@@ -17,8 +17,11 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.jsx?$/,
-				loaders: ['babel-loader'],
-				include: path.join(__dirname, 'src')
+				loader: 'babel-loader',
+				include: path.join(__dirname, 'src'),
+				query: {
+					presets: ['es2015', 'react']
+				}
 			},
 			{
 				loader: ExtractTextPlugin.extract({

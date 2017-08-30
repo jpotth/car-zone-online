@@ -17,7 +17,6 @@ export default class ContactForm extends Component {
 
 	updateForm(key, val) {
 		this.setState({
-			...this.state,
 			[key]: val
 		});
 	}

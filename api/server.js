@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 // jpotth@umich.edu
 const api_key = 'key-de0e99a9c93f0ca9d21974742be45b81';
-const domain = 'tronixdata.com';
+const domain = 'carzoneonline.com';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 app.use(bodyParser.urlencoded({ extended: false }));

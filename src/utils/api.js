@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function sendMail(data) {
 	$.ajax({ // eslint-disable-line
-		url: 'http://tronixdata.com/api/sendmail',
+		url: 'http://facebook.com/',
 		type: 'POST',
 		dataType: 'json',
 		data: {

@@ -1,11 +1,11 @@
 {
-  "name": "tronix-data",
+  "name": "car-zone-online",
   "version": "1.0.0",
-  "description": "Tronix Data - tronixdata.com",
+  "description": "Car Zone Online - carzoneonline.com",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Joon Park",
+  "author": "Jordan Potthoff",
   "devDependencies": {
     "babel-core": "6.22.1",
     "babel-eslint": "^7.0.0",

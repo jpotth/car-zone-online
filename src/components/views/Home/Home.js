@@ -19,7 +19,6 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div className="page text-center">
-				<ContactForm />
 				<Header />
 				<main data-hijacking="off" data-animation="fixed" className="page-content">
 					<Banner />
