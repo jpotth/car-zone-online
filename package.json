@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "7.5.0",
+    "npm": "4.1.2"
+  },
   "author": "Jordan Potthoff",
   "devDependencies": {
     "babel-core": "6.22.1",
@@ -37,8 +41,6 @@
     "es6-object-assign": "^1.0.3",
     "jquery": "^3.1.1",
     "lodash": "^4.17.4",
-    "node": "7.5.0",
-    "npm": "4.1.2",
     "parallaxify": "^0.1.1",
     "react": "15.4.2",
     "react-dom": "15.4.2",
