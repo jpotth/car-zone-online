@@ -2,6 +2,11 @@
   "name": "car-zone-online",
   "version": "1.0.0",
   "description": "Car Zone Online - carzoneonline.com",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p"
+  },
   "engines": {
     "node": "7.5.0",
     "npm": "4.1.2"
